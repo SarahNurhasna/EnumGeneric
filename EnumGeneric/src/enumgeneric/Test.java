@@ -31,13 +31,10 @@ public class Test {
 
     GenericClass<String> stringObj = new GenericClass<>("Blue");
     System.out.println("My favorite color is " + stringObj.getData());
-     
+    
+    //Print Generic Method
     GenericMethods tes = new GenericMethods();
     tes.<String>genericMethod("Sarah Nurhasna Khairunnisa");
   }
-  
-   //Print Generic Method
-    // initialize the class with Integer data
-    
-  }    
+}    
 
