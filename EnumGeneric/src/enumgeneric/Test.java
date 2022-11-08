@@ -10,6 +10,10 @@ package enumgeneric;
  */
 public class Test {
   public static void main(String[] args) { 
+    //Print Generic Method
+    GenericMethods tes = new GenericMethods();
+    tes.<String>genericMethod("Sarah Nurhasna Khairunnisa");
+    
     //Print Enum
     Enum mySize = Enum.SMALL;
 
@@ -31,10 +35,6 @@ public class Test {
 
     GenericClass<String> stringObj = new GenericClass<>("Blue");
     System.out.println("My favorite color is " + stringObj.getData());
-    
-    //Print Generic Method
-    GenericMethods tes = new GenericMethods();
-    tes.<String>genericMethod("Sarah Nurhasna Khairunnisa");
   }
 }    
 
